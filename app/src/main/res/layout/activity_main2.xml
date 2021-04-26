@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mainact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="back to main "
+                app:backgroundTint="#FF5722" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/idinput"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ID number "
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/fnameinput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="First Name "
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/lnameinput"
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Last Name "
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/mailinp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email "
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ViewFB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="view"
+                app:backgroundTint="#2196F3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add"
+                app:backgroundTint="#4CAF50" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="update email"
+                app:backgroundTint="#CDDC39" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="delete "
+                app:backgroundTint="#E91E63" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

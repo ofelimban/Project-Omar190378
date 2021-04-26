@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "104449879137",
+    "firebase_url": "https://omar-190378-e8e2a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "omar-190378-e8e2a",
+    "storage_bucket": "omar-190378-e8e2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104449879137:android:0ca9c7ca1b3b87ba4ace20",
+        "android_client_info": {
+          "package_name": "com.example.project_omar190378"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104449879137-qk0ss67g97rj1lq551f11krpr0odjif6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCSMvht-00PpYbAKwt-MEych7zVTTj0Fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104449879137-qk0ss67g97rj1lq551f11krpr0odjif6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
